@@ -1,3 +1,6 @@
+Forked from http://silviomoreto.github.io/bootstrap-select to fix bug filed at
+https://icanbwell.atlassian.net/browse/BP-3626. 
+
 bootstrap-select
 ================
 

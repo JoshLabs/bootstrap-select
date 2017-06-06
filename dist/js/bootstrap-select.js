@@ -225,7 +225,7 @@
     this.init();
   };
 
-  Selectpicker.VERSION = '1.6.5';
+  Selectpicker.VERSION = '1.6.6';
 
   // part of this is duplicated in i18n/defaults-en_US.js. Make sure to update both.
   Selectpicker.DEFAULTS = {
@@ -348,7 +348,7 @@
           : '';
       var drop =
           '<div class="btn-group bootstrap-select' + multiple + inputGroup + '">' +
-          '<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"' + autofocus + '>' +
+          '<button type="button" class="btn dropdown-toggle" tabindex="-1" data-toggle="dropdown"' + autofocus + '>' +
           '<span class="filter-option pull-left"></span>&nbsp;' +
           '<span class="caret"></span>' +
           '</button>' +
@@ -775,10 +775,6 @@
       } else {
         if (this.$button.hasClass('disabled')) {
           this.$button.removeClass('disabled');
-        }
-
-        if (this.$button.attr('tabindex') == -1 && !this.$element.data('tabindex')) {
-          this.$button.removeAttr('tabindex');
         }
       }
 
