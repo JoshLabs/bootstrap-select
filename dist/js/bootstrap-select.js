@@ -1342,7 +1342,7 @@
           $this.data('selectpicker', (data = new Selectpicker(this, config, _event)));
         } else if (options) {
           for (var i in options) {
-            if (options.hasOwnProperty(i)) {
+            if (Object.prototype.hasOwnProperty.call(options, i)) {
               data.options[i] = options[i];
             }
           }
