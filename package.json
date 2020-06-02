@@ -2,12 +2,12 @@
   "name": "bootstrap-select",
   "title": "bootstrap-select",
   "main": "dist/js/bootstrap-select.js",
-  "description": "A custom <select> for Bootstrap using button dropdown as replacement",
-  "version": "1.6.5",
-  "homepage": "http://silviomoreto.github.io/bootstrap-select",
+  "description": "The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more. Now with Bootstrap 4 support.",
+  "version": "1.13.13",
+  "homepage": "https://developer.snapappointments.com/bootstrap-select",
   "author": {
-    "name": "Silvio Moreto",
-    "url": "https://github.com/silviomoreto"
+    "name": "Casey Holzer",
+    "url": "https://github.com/caseyjhol"
   },
   "contributors": [
     {
@@ -15,25 +15,13 @@
       "url": "https://github.com/silviomoreto"
     },
     {
-      "name": "Ana Carolina",
-      "url": "https://github.com/anacarolinats"
-    },
-    {
-      "name": "caseyjhol",
-      "url": "https://github.com/caseyjhol"
-    },
-    {
-      "name": "Matt Bryson",
-      "url": "https://github.com/mattbryson"
-    },
-    {
-      "name": "t0xicCode",
-      "url": "https://github.com/t0xicCode"
+      "name": "SnapAppointments, LLC",
+      "url": "https://snapappointments.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/silviomoreto/bootstrap-select.git"
+    "url": "git://github.com/snapappointments/bootstrap-select.git"
   },
   "license": {
     "type": "MIT",
@@ -43,24 +31,39 @@
     "jquery": "3.5.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-autoprefixer": "~1.0.0",
-    "grunt-banner": "~0.3.1",
-    "grunt-contrib-clean": "~0.6.0",
-    "grunt-contrib-compress": "~0.13.0",
-    "grunt-contrib-concat": "~0.5.0",
-    "grunt-contrib-csslint": "~0.2.0",
-    "grunt-contrib-cssmin": "~0.11.0",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-less": "~0.11.3",
-    "grunt-contrib-uglify": "~0.7.0",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-sed": "~0.1.1",
-    "load-grunt-tasks": "~2.0.0"
+    "autoprefixer": "^9.6.4",
+    "grunt": "^1.0.4",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^1.5.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^22.0.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-version": "^1.3.1",
+    "load-grunt-tasks": "^5.1.0"
   },
+  "browserslist": [
+    "Android 2.3",
+    "Android >= 4",
+    "Chrome >= 20",
+    "Firefox >= 24",
+    "Explorer >= 8",
+    "iOS >= 6",
+    "Opera >= 12",
+    "Safari >= 6"
+  ],
   "keywords": [
+    "javascript",
+    "jquery",
     "form",
     "bootstrap",
+    "dropdown",
     "select",
     "replacement"
   ]
