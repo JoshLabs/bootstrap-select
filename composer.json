@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "suggest": {
-    "components/jquery": "3.5.0",
+    "components/jquery": "3.5.1",
     "twbs/bootstrap": "~3.0.0"
   }
 }

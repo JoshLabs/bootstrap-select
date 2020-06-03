@@ -28,7 +28,7 @@
     "url": "https://github.com/silviomoreto/bootstrap-select/blob/master/LICENSE"
   },
   "dependencies": {
-    "jquery": "3.5.0"
+    "jquery": "3.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.6.4",
